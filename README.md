@@ -1,5 +1,10 @@
 # Terrarium Microverse App 🌿
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Alpha-red)
+![PyQt5](https://img.shields.io/badge/Framework-PyQt5-008080?logo=qt&logoColor=white)
+![FMU](https://img.shields.io/badge/Powered_by-FMU-orange)
+
 Welcome to the **Terrarium Microverse**. This project intends to create an interactive simulation of a terrarium-like environment, featuring dynamically behaving "creatures", decorations, food sources, and ambient lighting. Built with **Python** and **PyQt5**, it's used mostly as a testing field to learn more on the topic of multithreading & FMI standard use.
 
 ![Simulation Example](assets/simulation_example_v11.png)
