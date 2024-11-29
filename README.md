@@ -1,8 +1,8 @@
 # Terrarium Microverse App 🌿
 
-Welcome to the **Terrarium Microverse**. This project intents to create an interactive simulation of a terrarium-like environment, featuring dynamically behaving "creatures", decorations, food sources, and ambient lighting. Built with **Python** and **PyQt5**, it's used mostly as a testing field to learn more on the topic of multithreading & FMI standard use.
+Welcome to the **Terrarium Microverse**. This project intends to create an interactive simulation of a terrarium-like environment, featuring dynamically behaving "creatures", decorations, food sources, and ambient lighting. Built with **Python** and **PyQt5**, it's used mostly as a testing field to learn more on the topic of multithreading & FMI standard use.
 
-![Simulation Example](assets/simulation_example.jpg)
+![Simulation Example](assets/simulation_example_v11.jpg)
 
 ⚠️ **This project is in its raw, early stages. Expect plenty of obvious errors and rough edges.** Feedback, contributions, and suggestions are welcome to help polish it into something amazing & useful.
 
@@ -12,7 +12,7 @@ Welcome to the **Terrarium Microverse**. This project intents to create an inter
 
 - **Dynamic Creatures**: Simulated entities like "BlueCell" & "GreenCell" with behavior influenced by hunger, boundaries, and interactions.
 - **Terrarium Environment**: Includes decorations, lighting effects, and a customizable boundary.
-- **Interactive Simulation**: Real-time updates with support for FMU-based (Functional Mock-up Unit) physics-driven behavior.
+- **Interactive Simulation**: Real-time updates supporting FMU-based (Functional Mock-up Unit) physics-driven behavior.
 
 ---
 
@@ -74,7 +74,7 @@ requirements.txt                # Python dependencies
 
 ## FMU Configuration 📦
 
-This simulation relies on **FMU files** for dynamic creature behavior, and have corresponding **Modelica source files** (`.mo`) for testing purposes. These `.fmu` files are necessary for the proper functioning of the creatures and should be organized as follows:
+This simulation relies on **FMU files** for dynamic creature behavior, and has corresponding **Modelica source files** (`.mo`) for testing purposes. These `.fmu` files are necessary for the proper functioning of the creatures and should be organized as follows:
 
 ```plaintext
 fmus/
@@ -108,7 +108,7 @@ If you're unfamiliar with FMUs or the **FMI (Functional Mock-up Interface)** sta
 - **Error Handling**: Hardcoded file paths and lack of robust validation may cause crashes.
 - **Performance**: Heavy use of real-time visual effects can lead to lag even in small simulations.
 - **Thread Safety**: Some shared resources (e.g., `ThoughtsManager`) need locks for concurrent access.
-- **UI Scaling**: The PyQt5 UI wasn't adapt for screen rescaling.
+- **UI Scaling**: The PyQt5 UI wasn't adapted for screen rescaling.
 
 Contributions to address these issues are highly appreciated.
 
