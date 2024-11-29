@@ -2,7 +2,7 @@
 
 Welcome to the **Terrarium Microverse**. This project intends to create an interactive simulation of a terrarium-like environment, featuring dynamically behaving "creatures", decorations, food sources, and ambient lighting. Built with **Python** and **PyQt5**, it's used mostly as a testing field to learn more on the topic of multithreading & FMI standard use.
 
-![Simulation Example](assets/simulation_example_v11.jpg)
+![Simulation Example](assets/simulation_example_v11.png)
 
 ⚠️ **This project is in its raw, early stages. Expect plenty of obvious errors and rough edges.** Feedback, contributions, and suggestions are welcome to help polish it into something amazing & useful.
 
